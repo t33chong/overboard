@@ -1,0 +1,292 @@
+components:
+  K00:
+    flip: false
+    location:
+    - -125.720075
+    - -32.9363
+    rotation: 173
+  K01:
+    flip: false
+    location:
+    - -128.04207499999998
+    - -14.028300000000002
+    rotation: 173
+  K02:
+    flip: false
+    location:
+    - -130.36407499999999
+    - 4.8797
+    rotation: 173
+  K03:
+    flip: false
+    location:
+    - -132.686075
+    - 23.7877
+    rotation: 173
+  K10:
+    flip: false
+    location:
+    - -106.812075
+    - -30.614300000000004
+    rotation: 173
+  K11:
+    flip: false
+    location:
+    - -109.134075
+    - -11.706300000000002
+    rotation: 173
+  K12:
+    flip: false
+    location:
+    - -111.456075
+    - 7.201699999999999
+    rotation: 173
+  K13:
+    flip: false
+    location:
+    - -113.778075
+    - 26.1097
+    rotation: 173
+  K20:
+    flip: false
+    location:
+    - -87.90407499999999
+    - -28.292300000000004
+    rotation: 173
+  K21:
+    flip: false
+    location:
+    - -90.226075
+    - -9.384300000000003
+    rotation: 173
+  K22:
+    flip: false
+    location:
+    - -92.548075
+    - 9.523699999999998
+    rotation: 173
+  K23:
+    flip: false
+    location:
+    - -94.870075
+    - 28.4317
+    rotation: 173
+  K30:
+    flip: false
+    location:
+    - -68.99607499999999
+    - -25.970300000000005
+    rotation: 173
+  K31:
+    flip: false
+    location:
+    - -71.318075
+    - -7.062300000000004
+    rotation: 173
+  K32:
+    flip: false
+    location:
+    - -73.640075
+    - 11.845699999999997
+    rotation: 173
+  K33:
+    flip: false
+    location:
+    - -75.962075
+    - 30.7537
+    rotation: 173
+  K40:
+    flip: false
+    location:
+    - -50.08807499999999
+    - -23.648300000000006
+    rotation: 173
+  K41:
+    flip: false
+    location:
+    - -52.41007499999999
+    - -4.740300000000005
+    rotation: 173
+  K42:
+    flip: false
+    location:
+    - -54.732074999999995
+    - 14.167699999999996
+    rotation: 173
+  K43:
+    flip: false
+    location:
+    - -57.054075
+    - 33.0757
+    rotation: 173
+  K50:
+    flip: false
+    location:
+    - -31.180074999999988
+    - -21.326300000000007
+    rotation: 173
+  K51:
+    flip: false
+    location:
+    - -33.50207499999999
+    - -2.4183000000000057
+    rotation: 173
+  K52:
+    flip: false
+    location:
+    - -35.82407499999999
+    - 16.489699999999996
+    rotation: 173
+  K53:
+    flip: false
+    location:
+    - -38.146074999999996
+    - 35.3977
+    rotation: 173
+  KA0:
+    flip: false
+    location:
+    - 31.180074999999988
+    - -21.326300000000007
+    rotation: 187
+  KA1:
+    flip: false
+    location:
+    - 33.50207499999999
+    - -2.4183000000000057
+    rotation: 187
+  KA2:
+    flip: false
+    location:
+    - 35.82407499999999
+    - 16.489699999999996
+    rotation: 187
+  KA3:
+    flip: false
+    location:
+    - 38.146074999999996
+    - 35.3977
+    rotation: 187
+  KB0:
+    flip: false
+    location:
+    - 50.08807499999999
+    - -23.648300000000006
+    rotation: 187
+  KB1:
+    flip: false
+    location:
+    - 52.41007499999999
+    - -4.740300000000005
+    rotation: 187
+  KB2:
+    flip: false
+    location:
+    - 54.732074999999995
+    - 14.167699999999996
+    rotation: 187
+  KB3:
+    flip: false
+    location:
+    - 57.054075
+    - 33.0757
+    rotation: 187
+  KC0:
+    flip: false
+    location:
+    - 68.99607499999999
+    - -25.970300000000005
+    rotation: 187
+  KC1:
+    flip: false
+    location:
+    - 71.318075
+    - -7.062300000000004
+    rotation: 187
+  KC2:
+    flip: false
+    location:
+    - 73.640075
+    - 11.845699999999997
+    rotation: 187
+  KC3:
+    flip: false
+    location:
+    - 75.962075
+    - 30.7537
+    rotation: 187
+  KD0:
+    flip: false
+    location:
+    - 87.90407499999999
+    - -28.292300000000004
+    rotation: 187
+  KD1:
+    flip: false
+    location:
+    - 90.226075
+    - -9.384300000000003
+    rotation: 187
+  KD2:
+    flip: false
+    location:
+    - 92.548075
+    - 9.523699999999998
+    rotation: 187
+  KD3:
+    flip: false
+    location:
+    - 94.870075
+    - 28.4317
+    rotation: 187
+  KE0:
+    flip: false
+    location:
+    - 106.812075
+    - -30.614300000000004
+    rotation: 187
+  KE1:
+    flip: false
+    location:
+    - 109.134075
+    - -11.706300000000002
+    rotation: 187
+  KE2:
+    flip: false
+    location:
+    - 111.456075
+    - 7.201699999999999
+    rotation: 187
+  KE3:
+    flip: false
+    location:
+    - 113.778075
+    - 26.1097
+    rotation: 187
+  KF0:
+    flip: false
+    location:
+    - 125.720075
+    - -32.9363
+    rotation: 187
+  KF1:
+    flip: false
+    location:
+    - 128.04207499999998
+    - -14.028300000000002
+    rotation: 187
+  KF2:
+    flip: false
+    location:
+    - 130.36407499999999
+    - 4.8797
+    rotation: 187
+  KF3:
+    flip: false
+    location:
+    - 132.686075
+    - 23.7877
+    rotation: 187
+origin:
+- 0
+- 0
