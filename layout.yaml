@@ -1,4 +1,292 @@
 components:
+  D00:
+    flip: true
+    location:
+    - -124.55907499999999
+    - -42.3903
+    rotation: 173
+  D01:
+    flip: true
+    location:
+    - -126.88107499999998
+    - -23.482300000000002
+    rotation: 173
+  D02:
+    flip: true
+    location:
+    - -129.20307499999998
+    - -4.574300000000001
+    rotation: 173
+  D03:
+    flip: true
+    location:
+    - -131.525075
+    - 14.3337
+    rotation: 173
+  D10:
+    flip: true
+    location:
+    - -105.65107499999999
+    - -40.06830000000001
+    rotation: 173
+  D11:
+    flip: true
+    location:
+    - -107.973075
+    - -21.160300000000003
+    rotation: 173
+  D12:
+    flip: true
+    location:
+    - -110.295075
+    - -2.2523000000000017
+    rotation: 173
+  D13:
+    flip: true
+    location:
+    - -112.617075
+    - 16.6557
+    rotation: 173
+  D20:
+    flip: true
+    location:
+    - -86.74307499999999
+    - -37.746300000000005
+    rotation: 173
+  D21:
+    flip: true
+    location:
+    - -89.065075
+    - -18.838300000000004
+    rotation: 173
+  D22:
+    flip: true
+    location:
+    - -91.387075
+    - 0.06969999999999743
+    rotation: 173
+  D23:
+    flip: true
+    location:
+    - -93.709075
+    - 18.9777
+    rotation: 173
+  D30:
+    flip: true
+    location:
+    - -67.83507499999999
+    - -35.4243
+    rotation: 173
+  D31:
+    flip: true
+    location:
+    - -70.15707499999999
+    - -16.516300000000005
+    rotation: 173
+  D32:
+    flip: true
+    location:
+    - -72.479075
+    - 2.3916999999999966
+    rotation: 173
+  D33:
+    flip: true
+    location:
+    - -74.801075
+    - 21.299699999999998
+    rotation: 173
+  D40:
+    flip: true
+    location:
+    - -48.92707499999999
+    - -33.10230000000001
+    rotation: 173
+  D41:
+    flip: true
+    location:
+    - -51.24907499999999
+    - -14.194300000000005
+    rotation: 173
+  D42:
+    flip: true
+    location:
+    - -53.57107499999999
+    - 4.713699999999996
+    rotation: 173
+  D43:
+    flip: true
+    location:
+    - -55.893074999999996
+    - 23.621699999999997
+    rotation: 173
+  D50:
+    flip: true
+    location:
+    - -30.019074999999987
+    - -30.780300000000008
+    rotation: 173
+  D51:
+    flip: true
+    location:
+    - -32.34107499999999
+    - -11.872300000000006
+    rotation: 173
+  D52:
+    flip: true
+    location:
+    - -34.66307499999999
+    - 7.035699999999995
+    rotation: 173
+  D53:
+    flip: true
+    location:
+    - -36.985074999999995
+    - 25.9437
+    rotation: 173
+  DA0:
+    flip: true
+    location:
+    - 30.019074999999987
+    - -30.780300000000008
+    rotation: 187
+  DA1:
+    flip: true
+    location:
+    - 32.34107499999999
+    - -11.872300000000006
+    rotation: 187
+  DA2:
+    flip: true
+    location:
+    - 34.66307499999999
+    - 7.035699999999995
+    rotation: 187
+  DA3:
+    flip: true
+    location:
+    - 36.985074999999995
+    - 25.9437
+    rotation: 187
+  DB0:
+    flip: true
+    location:
+    - 48.92707499999999
+    - -33.10230000000001
+    rotation: 187
+  DB1:
+    flip: true
+    location:
+    - 51.24907499999999
+    - -14.194300000000005
+    rotation: 187
+  DB2:
+    flip: true
+    location:
+    - 53.57107499999999
+    - 4.713699999999996
+    rotation: 187
+  DB3:
+    flip: true
+    location:
+    - 55.893074999999996
+    - 23.621699999999997
+    rotation: 187
+  DC0:
+    flip: true
+    location:
+    - 67.83507499999999
+    - -35.4243
+    rotation: 187
+  DC1:
+    flip: true
+    location:
+    - 70.15707499999999
+    - -16.516300000000005
+    rotation: 187
+  DC2:
+    flip: true
+    location:
+    - 72.479075
+    - 2.3916999999999966
+    rotation: 187
+  DC3:
+    flip: true
+    location:
+    - 74.801075
+    - 21.299699999999998
+    rotation: 187
+  DD0:
+    flip: true
+    location:
+    - 86.74307499999999
+    - -37.746300000000005
+    rotation: 187
+  DD1:
+    flip: true
+    location:
+    - 89.065075
+    - -18.838300000000004
+    rotation: 187
+  DD2:
+    flip: true
+    location:
+    - 91.387075
+    - 0.06969999999999743
+    rotation: 187
+  DD3:
+    flip: true
+    location:
+    - 93.709075
+    - 18.9777
+    rotation: 187
+  DE0:
+    flip: true
+    location:
+    - 105.65107499999999
+    - -40.06830000000001
+    rotation: 187
+  DE1:
+    flip: true
+    location:
+    - 107.973075
+    - -21.160300000000003
+    rotation: 187
+  DE2:
+    flip: true
+    location:
+    - 110.295075
+    - -2.2523000000000017
+    rotation: 187
+  DE3:
+    flip: true
+    location:
+    - 112.617075
+    - 16.6557
+    rotation: 187
+  DF0:
+    flip: true
+    location:
+    - 124.55907499999999
+    - -42.3903
+    rotation: 187
+  DF1:
+    flip: true
+    location:
+    - 126.88107499999998
+    - -23.482300000000002
+    rotation: 187
+  DF2:
+    flip: true
+    location:
+    - 129.20307499999998
+    - -4.574300000000001
+    rotation: 187
+  DF3:
+    flip: true
+    location:
+    - 131.525075
+    - 14.3337
+    rotation: 187
   K00:
     flip: false
     location:

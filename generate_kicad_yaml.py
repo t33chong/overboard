@@ -67,6 +67,10 @@ def add_rgb(rgb_id, x, y, rotation):
         rgb_id = rgb_id[-1]
     components[f'RGB{rgb_id}'] = align_component(x, y, rotation, True)
 
+# Diodes
+def add_diode(c, r, x, y, rotation):
+    components['D{}{}'.format(c, r)] = align_component(x, y, rotation, True)
+
 k00_offset_x = -125.720075
 k00_offset_y = -32.9363
 col_x_interval = 18.908
@@ -74,8 +78,13 @@ col_y_interval = 2.322
 row_x_interval = -2.322
 row_y_interval = 18.908
 
+# 5.08mm rotated
 rgb_offset_x = 0.619
 rgb_offset_y = 5.042
+
+# (19.05/2)mm rotated
+diode_offset_x = 1.161
+diode_offset_y = 9.454
 
 x = k00_offset_x
 y = k00_offset_y
@@ -84,11 +93,13 @@ for c in range(6):
     switch_y = y
     for r in range(4):
         add_switch(COLUMNS[c], r, switch_x, switch_y, 180-7)
+        add_diode(COLUMNS[c], r, switch_x + diode_offset_x, switch_y - diode_offset_y, 180-7)
         add_rgb(rgb_matrix[r][c], switch_x + rgb_offset_x, switch_y - rgb_offset_y, 180-7)
         # add from KF0 (x inverse of K00 because it's distance from origin, y same) in reverse
         # row increments the same, y remains the same
         # col decrements from F, x is -x
         add_switch(COLUMNS[11-c], r, -switch_x, switch_y, 180+7)
+        add_diode(COLUMNS[11-c], r, -switch_x - diode_offset_x, switch_y - diode_offset_y, 180+7)
         add_rgb(rgb_matrix[r][11-c], -switch_x - rgb_offset_x, switch_y - rgb_offset_y, 180+7)
         switch_x += row_x_interval
         switch_y += row_y_interval
