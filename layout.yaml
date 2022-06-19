@@ -143,6 +143,24 @@ components:
     - -38.146074999999996
     - 35.3977
     rotation: 173
+  K92:
+    flip: false
+    location:
+    - -18.68
+    - 38.1
+    rotation: 180
+  K93:
+    flip: false
+    location:
+    - 0
+    - 38.1
+    rotation: 180
+  K94:
+    flip: false
+    location:
+    - 18.68
+    - 38.1
+    rotation: 180
   KA0:
     flip: false
     location:
@@ -286,6 +304,294 @@ components:
     location:
     - 132.686075
     - 23.7877
+    rotation: 187
+  RGB1:
+    flip: true
+    location:
+    - 30.561074999999988
+    - -26.368300000000005
+    rotation: 187
+  RGB10:
+    flip: true
+    location:
+    - 70.699075
+    - -12.104300000000004
+    rotation: 187
+  RGB11:
+    flip: true
+    location:
+    - 51.79107499999999
+    - -9.782300000000005
+    rotation: 187
+  RGB12:
+    flip: true
+    location:
+    - 32.88307499999999
+    - -7.4603000000000055
+    rotation: 187
+  RGB13:
+    flip: true
+    location:
+    - 35.205074999999994
+    - 11.447699999999996
+    rotation: 187
+  RGB14:
+    flip: true
+    location:
+    - 54.113074999999995
+    - 9.125699999999997
+    rotation: 187
+  RGB15:
+    flip: true
+    location:
+    - 73.021075
+    - 6.803699999999997
+    rotation: 187
+  RGB16:
+    flip: true
+    location:
+    - 91.929075
+    - 4.481699999999998
+    rotation: 187
+  RGB17:
+    flip: true
+    location:
+    - 110.837075
+    - 2.159699999999999
+    rotation: 187
+  RGB18:
+    flip: true
+    location:
+    - 129.74507499999999
+    - -0.1623000000000001
+    rotation: 187
+  RGB19:
+    flip: true
+    location:
+    - 132.067075
+    - 18.7457
+    rotation: 187
+  RGB2:
+    flip: true
+    location:
+    - 49.46907499999999
+    - -28.690300000000008
+    rotation: 187
+  RGB20:
+    flip: true
+    location:
+    - 113.159075
+    - 21.067700000000002
+    rotation: 187
+  RGB21:
+    flip: true
+    location:
+    - 94.251075
+    - 23.389699999999998
+    rotation: 187
+  RGB22:
+    flip: true
+    location:
+    - 75.343075
+    - 25.7117
+    rotation: 187
+  RGB23:
+    flip: true
+    location:
+    - 56.435075
+    - 28.033699999999996
+    rotation: 187
+  RGB24:
+    flip: true
+    location:
+    - 37.527074999999996
+    - 30.3557
+    rotation: 187
+  RGB25:
+    flip: true
+    location:
+    - -37.527074999999996
+    - 30.3557
+    rotation: 173
+  RGB26:
+    flip: true
+    location:
+    - -56.435075
+    - 28.033699999999996
+    rotation: 173
+  RGB27:
+    flip: true
+    location:
+    - -75.343075
+    - 25.7117
+    rotation: 173
+  RGB28:
+    flip: true
+    location:
+    - -94.251075
+    - 23.389699999999998
+    rotation: 173
+  RGB29:
+    flip: true
+    location:
+    - -113.159075
+    - 21.067700000000002
+    rotation: 173
+  RGB3:
+    flip: true
+    location:
+    - 68.37707499999999
+    - -31.012300000000003
+    rotation: 187
+  RGB30:
+    flip: true
+    location:
+    - -132.067075
+    - 18.7457
+    rotation: 173
+  RGB31:
+    flip: true
+    location:
+    - -129.74507499999999
+    - -0.1623000000000001
+    rotation: 173
+  RGB32:
+    flip: true
+    location:
+    - -110.837075
+    - 2.159699999999999
+    rotation: 173
+  RGB33:
+    flip: true
+    location:
+    - -91.929075
+    - 4.481699999999998
+    rotation: 173
+  RGB34:
+    flip: true
+    location:
+    - -73.021075
+    - 6.803699999999997
+    rotation: 173
+  RGB35:
+    flip: true
+    location:
+    - -54.113074999999995
+    - 9.125699999999997
+    rotation: 173
+  RGB36:
+    flip: true
+    location:
+    - -35.205074999999994
+    - 11.447699999999996
+    rotation: 173
+  RGB37:
+    flip: true
+    location:
+    - -32.88307499999999
+    - -7.4603000000000055
+    rotation: 173
+  RGB38:
+    flip: true
+    location:
+    - -51.79107499999999
+    - -9.782300000000005
+    rotation: 173
+  RGB39:
+    flip: true
+    location:
+    - -70.699075
+    - -12.104300000000004
+    rotation: 173
+  RGB4:
+    flip: true
+    location:
+    - 87.28507499999999
+    - -33.334300000000006
+    rotation: 187
+  RGB40:
+    flip: true
+    location:
+    - -89.607075
+    - -14.426300000000003
+    rotation: 173
+  RGB41:
+    flip: true
+    location:
+    - -108.515075
+    - -16.7483
+    rotation: 173
+  RGB42:
+    flip: true
+    location:
+    - -127.42307499999998
+    - -19.070300000000003
+    rotation: 173
+  RGB43:
+    flip: true
+    location:
+    - -125.101075
+    - -37.978300000000004
+    rotation: 173
+  RGB44:
+    flip: true
+    location:
+    - -106.193075
+    - -35.6563
+    rotation: 173
+  RGB45:
+    flip: true
+    location:
+    - -87.28507499999999
+    - -33.334300000000006
+    rotation: 173
+  RGB46:
+    flip: true
+    location:
+    - -68.37707499999999
+    - -31.012300000000003
+    rotation: 173
+  RGB47:
+    flip: true
+    location:
+    - -49.46907499999999
+    - -28.690300000000008
+    rotation: 173
+  RGB48:
+    flip: true
+    location:
+    - -30.561074999999988
+    - -26.368300000000005
+    rotation: 173
+  RGB5:
+    flip: true
+    location:
+    - 106.193075
+    - -35.6563
+    rotation: 187
+  RGB6:
+    flip: true
+    location:
+    - 125.101075
+    - -37.978300000000004
+    rotation: 187
+  RGB7:
+    flip: true
+    location:
+    - 127.42307499999998
+    - -19.070300000000003
+    rotation: 187
+  RGB8:
+    flip: true
+    location:
+    - 108.515075
+    - -16.7483
+    rotation: 187
+  RGB9:
+    flip: true
+    location:
+    - 89.607075
+    - -14.426300000000003
     rotation: 187
 origin:
 - 0

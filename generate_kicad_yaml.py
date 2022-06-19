@@ -26,6 +26,22 @@ ROT_ORDER = """
 1 1 1 1 1 1
 """
 
+
+COLUMNS = '012345ABCDEF'
+RGB_MATRIX = """
+43 44 45 46 47 48 01 02 03 04 05 06
+42 41 40 39 38 37 12 11 10 09 08 07
+31 32 33 34 35 36 13 14 15 16 17 18
+30 29 28 27 26 25 24 23 22 21 20 19
+"""
+rgb_matrix = []
+for line in RGB_MATRIX.split('\n'):
+    line = line.strip()
+    if not line:
+        continue
+    rgb_matrix.append(line.split(' '))
+print(rgb_matrix)
+
 components = {}
 
 def align_component(x, y, rotation=0, flipped=False):
@@ -45,6 +61,12 @@ def add_switch(c, r, x, y, rotation):
     diode_rot = 180
     # components['D{}{}'.format(c, r)] = align_component(diode_x, diode_y, diode_rot, True)
 
+# RGB LEDs
+def add_rgb(rgb_id, x, y, rotation):
+    if rgb_id.startswith('0'):
+        rgb_id = rgb_id[-1]
+    components[f'RGB{rgb_id}'] = align_component(x, y, rotation, True)
+
 k00_offset_x = -125.720075
 k00_offset_y = -32.9363
 col_x_interval = 18.908
@@ -52,21 +74,30 @@ col_y_interval = 2.322
 row_x_interval = -2.322
 row_y_interval = 18.908
 
+rgb_offset_x = 0.619
+rgb_offset_y = 5.042
+
 x = k00_offset_x
 y = k00_offset_y
 for c in range(6):
     switch_x = x
     switch_y = y
     for r in range(4):
-        add_switch(c, r, switch_x, switch_y, 180-7)
+        add_switch(COLUMNS[c], r, switch_x, switch_y, 180-7)
+        add_rgb(rgb_matrix[r][c], switch_x + rgb_offset_x, switch_y - rgb_offset_y, 180-7)
         # add from KF0 (x inverse of K00 because it's distance from origin, y same) in reverse
         # row increments the same, y remains the same
         # col decrements from F, x is -x
-        add_switch('FEDCBA'[c], r, -switch_x, switch_y, 180+7)
+        add_switch(COLUMNS[11-c], r, -switch_x, switch_y, 180+7)
+        add_rgb(rgb_matrix[r][11-c], -switch_x - rgb_offset_x, switch_y - rgb_offset_y, 180+7)
         switch_x += row_x_interval
         switch_y += row_y_interval
     x += col_x_interval
     y += col_y_interval
+
+add_switch(9, 2, 0 - 18.68, SWITCH_INTERVAL * 2, 180)
+add_switch(9, 3, 0, SWITCH_INTERVAL * 2, 180)
+add_switch(9, 4, 0 + 18.68, SWITCH_INTERVAL * 2, 180)
 
 # LEDs
 def add_led(led_id, switch_id, rotation_code):
