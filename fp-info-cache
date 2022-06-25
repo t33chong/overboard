@@ -1,4 +1,4 @@
-23722618803946777
+23747458503681764
 67keys
 Trackpoint_42T3770_mounting_holes_back
 
@@ -89537,6 +89537,41 @@ usb usb-c 2.0
 20
 17
 User
+60_PCB_4_Mount_Holes
+
+
+0
+16
+1
+User
+60_PCB_Solenoid_Cutouts
+
+
+0
+0
+0
+User
+60_Plate_Edge_Cuts
+Converted using: svg2mod --center -i 60_Plate_Edge_Cuts.svg -v --debug
+svg2mod
+0
+0
+0
+User
+128x64OLED
+SSD1306
+SSD1306
+0
+4
+4
+User
+128x64OLED_Edge_Cuts
+SSD1306
+SSD1306
+0
+0
+0
+User
 AT90USB1286_AU_MU
 64-Lead Plastic Thin Quad Flatpack (PF) - 14x14x1 mm Body, 2.00 mm [TQFP] (see Microchip Packaging Specification 00000049BS.pdf)
 QFP 0.8
@@ -89642,6 +89677,13 @@ Diode_THT
 2
 2
 User
+Diode_THT_P7.62mm
+Diode, DO-35_SOD27 series, Axial, Horizontal, pin pitch=7.62mm, , length*diameter=4*2mm^2, , http://www.diodes.com/_files/packages/DO-35.pdf
+Diode DO-35_SOD27 series Axial Horizontal pin pitch 7.62mm  length 4mm diameter 2mm
+0
+2
+2
+User
 Elite-C
 
 
@@ -89677,6 +89719,27 @@ HRO-TYPE-C-31-M-12-HandSoldering
 20
 17
 User
+JST_PH_S2B-PH-K_1x02_P2.00mm_Horizontal
+JST PH series connector, S2B-PH-K (http://www.jst-mfg.com/product/pdf/eng/ePH.pdf), generated with kicad-footprint-generator
+connector JST PH top entry
+0
+2
+2
+User
+LED_D1.8mm_W3.3mm_H2.4mm
+LED, Round,  Rectangular size 3.3x2.4mm^2 diameter 1.8mm, 2 pins
+LED Round  Rectangular size 3.3x2.4mm^2 diameter 1.8mm 2 pins
+0
+2
+2
+User
+MXOnly-1U
+
+
+0
+2
+2
+User
 MX_Choc_V1_V2_Solder
 
 
@@ -89689,6 +89752,13 @@ MX_Choc_V1_V2_TTC_KS32
 
 0
 7
+2
+User
+MX_Solder_1u
+
+
+0
+2
 2
 User
 Mallory_Sonalert_AST1109MLTRQ
@@ -89789,6 +89859,13 @@ Panasonic_EVQ-WGD001_LargerCutout
 6
 6
 User
+Panasonic_EVQ-WGD001_Plate_Edge_Cuts
+
+
+0
+0
+0
+User
 Panasonic_EVQWGD001
 
 
@@ -89802,6 +89879,13 @@ Through hole pin header THT 1x05 2.54mm single row
 0
 5
 5
+User
+PinHeader_1x04_P2.54mm_Vertical_Centered
+Through hole straight pin header, 1x04, 2.54mm pitch, single row
+Through hole pin header THT 1x04 2.54mm single row
+0
+4
+4
 User
 QFP_QFN_64
 
@@ -89820,6 +89904,13 @@ User
 Resistor_THT
 
 
+0
+2
+2
+User
+Resistor_THT_P7.62mm
+Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=7.62mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf
+Resistor Axial_DIN0207 series Axial Horizontal pin pitch 7.62mm 0.25W = 1/4W length 6.3mm diameter 2.5mm
 0
 2
 2
@@ -89873,6 +89964,13 @@ Sunrom_4379_5_Way_Switch
 6
 6
 User
+TO-220-3
+TO-220-3, Horizontal, RM 2.54mm, see https://www.vishay.com/docs/66542/to-220-1.pdf
+TO-220-3 Horizontal RM 2.54mm
+0
+3
+3
+User
 Teensy2.0++_40Pin
 20
 
@@ -89886,6 +89984,13 @@ Teensy2.0++_41Pin
 0
 41
 41
+User
+Teensy2.0++_43Pin
+20
+
+0
+43
+43
 User
 Teensy2.0++_43Pin_Offset
 20
