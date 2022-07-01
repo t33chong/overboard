@@ -287,6 +287,12 @@ components:
     - 124.49207499999999
     - 24.7937
     rotation: 277
+  DL1:
+    flip: true
+    location:
+    - -110.450075
+    - 15.3957
+    rotation: 7
   ENC1:
     flip: false
     location:

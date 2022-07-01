@@ -1,4 +1,4 @@
-23747458503681764
+23749120296350284
 67keys
 Trackpoint_42T3770_mounting_holes_back
 
@@ -89536,6 +89536,13 @@ usb usb-c 2.0
 0
 20
 17
+User
+1N4001
+Diode, DO-41_SOD81 series, Axial, Horizontal, pin pitch=7.62mm, , length*diameter=5.2*2.7mm^2, , http://www.diodes.com/_files/packages/DO-41%20(Plastic).pdf
+Diode DO-41_SOD81 series Axial Horizontal pin pitch 7.62mm  length 5.2mm diameter 2.7mm
+0
+2
+2
 User
 60_PCB_4_Mount_Holes
 

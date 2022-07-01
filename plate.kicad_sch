@@ -655,7 +655,7 @@
     (property "Value" "Conn_01x04" (id 1) (at 118.11 81.2799 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "User:PinHeader_1x04_P2.54mm_Vertical_Centered" (id 2) (at 114.935 78.74 0)
+    (property "Footprint" "" (id 2) (at 114.935 78.74 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 114.935 78.74 0)
@@ -676,7 +676,7 @@
     (property "Value" "Conn_01x04" (id 1) (at 86.36 81.2799 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "User:PinHeader_1x04_P2.54mm_Vertical_Centered" (id 2) (at 83.185 78.74 0)
+    (property "Footprint" "" (id 2) (at 83.185 78.74 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 83.185 78.74 0)
@@ -1039,10 +1039,10 @@
       (reference "H1") (unit 1) (value "MountingHole") (footprint "User:Trackpoint_Mounting_Holes")
     )
     (path "/199f157d-6f84-41da-be4c-6e21ffdc4f00"
-      (reference "J4") (unit 1) (value "Conn_01x04") (footprint "User:PinHeader_1x04_P2.54mm_Vertical_Centered")
+      (reference "J4") (unit 1) (value "Conn_01x04") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical_SMD_Pin1Right")
     )
     (path "/05a3fd88-c58e-4323-96ff-70847ec682b8"
-      (reference "J5") (unit 1) (value "Conn_01x04") (footprint "User:PinHeader_1x04_P2.54mm_Vertical_Centered")
+      (reference "J5") (unit 1) (value "Conn_01x04") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical_SMD_Pin1Right")
     )
     (path "/7e623bc6-23b6-4661-93b8-1f672e1d4d74"
       (reference "NAV1") (unit 1) (value "JOYSTICK_MINI") (footprint "Sparkfun_Switches:JOYSTICK_MINI")

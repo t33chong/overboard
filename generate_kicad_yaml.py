@@ -169,6 +169,8 @@ move_diode('E3', 'NE')
 move_diode('F3', 'SW')
 move_diode('11', 'SE')
 
+components['DL1'] = align_component(components['K12']['location'][0] + diode_offset_x, components['K12']['location'][1] + diode_offset_y, 7, True)
+
 # add_diode(
 #     1, 3,
 #     components['K13']['location'][0] + diode_offset_y,
