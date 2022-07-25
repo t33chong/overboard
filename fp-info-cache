@@ -1,4 +1,4 @@
-23749120296350284
+23754090288338236
 67keys
 Trackpoint_42T3770_mounting_holes_back
 
@@ -89726,6 +89726,13 @@ HRO-TYPE-C-31-M-12-HandSoldering
 20
 17
 User
+JOYSTICK_MINI
+SMALL TACTILE JOYSTICK W/ SELECT SWITCH
+SMALL TACTILE JOYSTICK W/ SELECT SWITCH
+0
+8
+8
+User
 JST_PH_S2B-PH-K_1x02_P2.00mm_Horizontal
 JST PH series connector, S2B-PH-K (http://www.jst-mfg.com/product/pdf/eng/ePH.pdf), generated with kicad-footprint-generator
 connector JST PH top entry
@@ -89816,6 +89823,13 @@ OLED_I2C_128x32
 0
 4
 4
+User
+Overboard_Plate
+Converted using: svg2mod --center -i plate-brd.svg -v --debug
+svg2mod
+0
+0
+0
 User
 PL9823-F5
 LED, diameter 5.0mm, 2 pins, diameter 5.0mm, 3 pins, diameter 5.0mm, 4 pins, http://www.kingbright.com/attachments/file/psearch/000/00/00/L-154A4SUREQBFZGEW(Ver.9A).pdf
@@ -89949,6 +89963,13 @@ SW_DS04-254-1L-03BK
 0
 6
 6
+User
+SW_DS04-254-1L-04BK
+
+
+0
+8
+8
 User
 Seal_Logo
 
